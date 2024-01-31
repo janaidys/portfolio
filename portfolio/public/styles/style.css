@@ -1,4 +1,18 @@
 :root {
+    --brown: #582f0e;
+    --light-brown: #7F4F24;
+    --black: #252422;
+    --charcoal: #403d39;
+    --tan: #d5bdaf;
+    --cream: #f5ebe0;
+    --sage: #A4AC86;
+    --green: #6b705c;
+    --forest-green: #132a13;
+
+
+
+
+
     
 }
 
@@ -7,20 +21,74 @@
  }
  
 body {
-
-
+    background-image: linear-gradient(var(--cream), var(--tan), var(--sage));
+    background-repeat: no-repeat; 
+    width: 100%;
+    margin: 0;
 }
 
 
 /* header CSS */
+header {
+    background-color: var(--cream)
+    
+}
 
 .nav-bar {
     display:flex;
     justify-content: space-around;
     flex-direction: row;
-    list-style-type: none;    
+    list-style-type: none;  
+
 }
     
 li a {
-        text-decoration: none;
+    text-decoration: none;
+
+}
+
+
+ /* unvisited link */
+ a:link {
+    color: var(--forest-green)  
+ }
+
+  /* visited link */
+a:visited {
+    color: var(--charcoal);
+
+}
+
+ /* mouse over link */
+a:hover {
+    font-weight:bold;
+    color:var(--forest-green)  
+}
+
+ /* selected link */
+a:active {
+    font-weight:bold;
+    color: var(--blue);
+    background-color: var(--yellow);  
+}
+
+/* home page body */
+.background {
+    background-image: url();
+}
+
+
+.profile-card {
+    border: 2px solid var(--charcoal);
+    text-align: center;
+}
+
+
+h1 {
+    color: var(--forest-green)
+
+}
+
+h2 {
+    color: var(--green)
 }
