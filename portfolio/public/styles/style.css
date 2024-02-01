@@ -30,8 +30,12 @@ body {
 
 /* header CSS */
 header {
-    background-color: var(--cream)
+    background-color: var(--sage);
     
+}
+
+nav {
+
 }
 
 .nav-bar {
